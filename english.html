@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Translate — Offline</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #0b1220, var(--bg));
+      color: var(--text);
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px; }
+    header { padding: 36px 0 16px; }
+    h1 { margin: 0 0 8px; font-size: 1.8rem; letter-spacing: 0.2px; }
+    p.lead { color: var(--muted); line-height: 1.8; }
+    .card {
+      margin-top: 18px;
+      background: rgba(17,24,39,0.85);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    h2 { margin: 18px 0 8px; font-size: 1.2rem; }
+    ul { margin: 0; padding-inline-start: 18px; }
+    li { margin: 8px 0; color: var(--muted); line-height: 1.7; }
+    .actions { margin-top: 18px; }
+    a.btn {
+      display: inline-block; margin-top: 8px; padding: 10px 14px;
+      border-radius: 12px; text-decoration: none; color: var(--text);
+      background: rgba(56,189,248,0.18); border: 1px solid rgba(56,189,248,0.35);
+    }
+    a.btn:hover { background: rgba(56,189,248,0.28); }
+    footer { text-align: center; padding: 24px 0 40px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Smart Translate — Offline</h1>
+      <p class="lead">
+        Turn your phone camera into a powerful real-time translator. Everything runs locally on your device—
+        no data is sent to servers.
+      </p>
+    </header>
+
+    <section class="card">
+      <h2>Main features</h2>
+      <ul>
+        <li>Live camera OCR with instant translation</li>
+        <li>Full-text translation for documents</li>
+        <li>Works completely offline after downloading a language model</li>
+        <li>Fast and private—images never leave your device</li>
+      </ul>
+
+      <div class="actions">
+        <a class="btn" href="index.html">Back to Arabic homepage</a>
+        <a class="btn" href="privacy.html">Privacy policy (Arabic)</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Smart Translate — Offline
+    </footer>
+  </div>
+</body>
+</html>
